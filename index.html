@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <title>FDG Portolio</title>
     <div style="text-align: center; background: rgba(0,0,0,0.4); color: white; padding: 10px; border-radius: 8px;"><h1>Fernando's Project Portfolio</h1></div>
     <div style="text-align: center; font-weight: bold; color: white;"><h3>Enter your name and email to proceed<h3></div><br><br>
-    <form action="/submit" method="post" style="text-align: center; font-family: 'Segoe UI', sans-serif;">
-        <label for="name" style="text-align: center; font-family: 'Segoe UI', sans-serif;">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" style="text-align: center; font-family: 'Segoe UI', sans-serif;"><br><br>
-        <label for="email" style="text-align: center; font-family: 'Segoe UI', sans-serif;">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" style="text-align: center; font-family: 'Segoe UI', sans-serif;"><br><br>
-        <input type="submit" value="Submit"><br><br>
+    <form action="/submit" method="post" style="text-align: center; font-family: 'Segoe UI', sans-serif; color: white;">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" style="text-align: center;"><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" style="text-align: center;"><br><br>
+
+    <input type="submit" value="Submit"><br><br>
     </form>
     <head>
   <style>
@@ -26,7 +28,7 @@
       border-radius: 15px;
       border: 1px solid rgba(255, 255, 255, 0.3);
       padding: 30px;
-      max-width: 500px;
+      max-width: 1000px;
       margin: auto;
       color: white;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -35,11 +37,12 @@
     input[type="text"],
     input[type="email"],
     input[type="submit"] {
-      width: 100%;
+      width: 75%;
       padding: 10px;
-      margin: 10px 0;
+      margin: 10px;
       border: none;
       border-radius: 8px;
+      align-items: center;
     }
 
     input[type="submit"] {
